@@ -6,8 +6,10 @@ Required ::
 
 How to Install ::
 
-copy  /clone this git into /var/www/ or your directory root
+copy or clone this git into /var/www/ or your directory root
 
-sudo chgrp -R www-data /var/www/(laravel-folder)
+run "sudo chgrp -R www-data /var/www/(laravel-folder)"
 
-sudo chmod -R 775 /var/www/(laravel-folder)/protected/storage
+run "sudo chmod -R 775 /var/www/(laravel-folder)/protected/storage"
+
+and run "composer install" to get vendor folder and depedency
