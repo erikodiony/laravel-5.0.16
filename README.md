@@ -2,7 +2,11 @@
 This is Laravel 5.0.16 for Debian and only support with PHP Version 5.4.45-0+deb7u5
 
 Required ::
-->PHP 5.4.45 + mcrypt
+PHP 5.4.45 + mcrypt
+
+run "apt-get install php5"
+
+run "apt-get install php5-mcrypt"
 
 How to Install ::
 
